@@ -29,7 +29,7 @@ def quizQuestions():
 		print("You must first login before adding questions.")
 	elif len(user) == 2:
 		if user[1] == "ADMIN":
-			print('\n~ADD QUESTIONS~\n')
+			print('\n~ADD MCQ's~\n')
 			ques = input("Enter the question that you want to add:\n")
 			opt = []
 			print("Enter the 4 options with character initials (1, 2, 3, 4)")
